@@ -27,6 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: var(--fs-p);
+    line-height: 150%;
 }
 
 .container {
@@ -34,8 +35,8 @@ body {
     height: fit-content;
     border-radius: 10px;
     background-color: var(--white);
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1.5rem;
+    margin: 1rem;
     font-size: var(--fs-p);
 }
 
@@ -45,3 +46,72 @@ img {
     margin-bottom: 1.5rem;
 }
 
+h1 {
+    font-weight: var(--fw-400);
+    font-size: 2rem;
+    color: var(--stone-900);
+}
+
+.header p {
+    font-family: var(--ff-Outfit);
+    font-weight: var(--fw-400);
+    font-size: 1rem;
+}
+
+.prep {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--stone-100);
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: var(--ff-Outfit);
+}
+
+.prep h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--ff-Outfit);
+    font-weight: var(--fw-600);
+}
+
+li::marker {
+    color: var(--brown-800)
+}
+
+h2 {
+    font-weight: var(--fw-400);
+    color: var(--brown-800);
+    margin-top: 1rem;
+    font-family: var(--ff-YoungSerif);
+    margin-top: 1.5rem;
+}
+
+ul, ol {
+    gap: 0.5rem;
+    padding-inline: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-Outfit);
+}
+
+hr {
+    border-color: 1px solid var(--stone-150);
+    margin-block: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--ff-Outfit);
+}
+
+td>b {
+    color: var(--brown-800);
+}
+
+td {
+    border-bottom: 1px solid var(--stone-150);
+    padding: 0.5rem;
+}
